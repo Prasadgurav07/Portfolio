@@ -155,7 +155,13 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body 
+{ 
+  /* background: var(--smoky-black);  */
+  background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("/assets/images/project-9.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 
 
